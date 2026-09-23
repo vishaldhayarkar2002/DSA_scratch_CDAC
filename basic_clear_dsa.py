@@ -67,7 +67,7 @@ if __name__ == "__main__":
     print("Are Disjoint (overlap):", sp.are_disjoint([1, 2, 3], [3, 4, 5]))
     
     # Test union
-    print("Union:", sp.union_arrays([1, 2, 3, 4], [3, 4, 5, 6]))a
+    print("Union:", sp.union_arrays([1, 2, 3, 4], [3, 4, 5, 6]))
     
     # Test intersection
     print("Intersection:", sp.intersection_arrays([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]))
