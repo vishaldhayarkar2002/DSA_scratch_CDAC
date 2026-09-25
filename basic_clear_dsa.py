@@ -1,3 +1,5 @@
+# IMP Python gotcha: input() per line is slow. sys.stdin.read().split() is much faster for large input
+
 # Check if string contains only 0s and 1s
 def is_binary(s):
     return set(s) <= {'0', '1'}
